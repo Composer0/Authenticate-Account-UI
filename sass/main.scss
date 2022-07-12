@@ -1,11 +1,13 @@
-@use "abstracts/abstracts";
+@import "abstracts/abstracts";
 
-@use "base/base";
+@import "base/base";
 
-@use "components/components";
+@import "components/index";
 
-@use "layout/layout";
+@import "layout/layout";
 
-@use "pages/pages";
+@import "pages/pages";
 
-@use "themes/themes";
+@import "themes/themes";
+
+@import "media/media";

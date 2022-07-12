@@ -1,0 +1,32 @@
+.code {
+    border-radius:5px;
+    font-size: 75px;
+    height: 120px;
+    width: 100px;
+    border: 1px solid #eee;
+    margin: .5%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+    
+    &::-webkit-outer-spid-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance:none;
+        margin: 0;
+    }
+    
+    &:valid {
+        border-color: #3498db;
+        box-shadow: 0 10px 10px -5px rgba(0, 0 , 0, .25);
+    }
+}
+
+.info {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    max-width: 400px;
+    color: #777;
+    border-radius: 5px;
+}
