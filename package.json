@@ -1,0 +1,19 @@
+{
+  "name": "41.-verify-account-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Sass",
+    "SCSS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  }
+}
