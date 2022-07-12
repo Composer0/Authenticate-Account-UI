@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #fbfcfe;
+    background-color: rgb(37, 202, 161);
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgb(250, 133, 205);
     border: 3px #000 solid;
-    border-radius 10px;
+    border-radius: 10px;
     padding: 30px;
     max-width: 2000px;
     text-align: center;
@@ -37,9 +37,10 @@ body {
     height: 120px;
     width: 100px;
     border: 1px solid #eee;
-    margin: 1%;
+    margin: .5%;
     text-align: center;
     font-weight: 300;
+    font-size: 60px;
 }
 
 .code::-webkit-outer-spid-button,
@@ -50,7 +51,7 @@ body {
 
 .code:valid {
     border-color: #3498db;
-    box-shadow: 0 10px 10px -5px rgba(0, 0 , 0 .25);
+    box-shadow: 0 10px 10px -5px rgba(0, 0 , 0, .25);
 }
 
 .info {
@@ -82,4 +83,15 @@ footer a{
 footer a:hover{
     text-decoration: none;
     color: slategray;
+}
+
+@media(max-width: 600px) {
+    .code-container {
+        flex-wrap: wrap;
+    }
+    .code {
+        font-size: 60px;
+        height: 80px;
+        max-width: 70px;
+    }
 }
